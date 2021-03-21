@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=e-Gulden
+Comment=e-Gulden P2P Cryptocurrency
+Comment[fr]=e-Gulden, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=e-Gulden, eşten eşe kriptografik sanal para birimi
+Exec=egulden-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/bitcoin;
+Categories=Office;Finance;
