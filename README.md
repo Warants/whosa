@@ -1,4 +1,4 @@
-Egulden integration/staging tree
+WHOSA integration/staging tree
 ================================
 
 http://www.egulden.org
@@ -6,24 +6,25 @@ http://www.egulden.org
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2014-2014 e-Gulden Developers
+Copyright (c) 2021-2021 WHOSA Developers
 
-What is Egulden?
+What is WHOSA?
 ----------------
 
-Egulden is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+WHOSA is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
  - subsidy halves in 210k blocks (~293 days)
- - ~21 million total coins
+ - ~500 million total coins
  - 25 coins per block
  - KGW algorithm
 
 For more information, as well as an immediately useable, binary version of
-the Egulden client sofware, see http://www.egulden.org.
+the WHOSA client sofware, see http://www.WHOSA.org.
 
 License
 -------
 
-Egulden is released under the terms of the MIT license. See `COPYING` for more
+WHOSA is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -32,7 +33,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Egulden
+If it is a simple/trivial/non-controversial change, then one of the WHOSA
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -44,8 +45,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Electronic-Gulden-Foundation/egulden/releases) are created
-regularly to indicate new official, stable release versions of Egulden.
+completely stable. [Tags](https://github.com/warants/whosa/releases) are created
+regularly to indicate new official, stable release versions of WHOSA.
 
 Testing
 -------
@@ -68,5 +69,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./egulden-qt_test
+    ./whosa-qt_test
 
